@@ -2,3 +2,7 @@
 	path = lib/Core_BEC_Analysis
 	url = https://github.com/brycehenson/Core_BEC_Analysis.git
 	branch = dev
+[submodule "lib/matlab_rigol_dsa800"]
+	path = lib/matlab_rigol_dsa800
+	url = https://github.com/brycehenson/matlab_rigol_dsa800.git
+	branch = main
