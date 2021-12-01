@@ -14,17 +14,8 @@ Github does not copy the submodules when you hit the make git with template butt
 - make a repo using this template
 - clone this repo with
 ```
- git clone --recurse-submodules -j8 https://github.com/brycehenson/matlab_proj_template.git
+ git clone --recurse-submodules -j8 https://github.com/brycehenson/laser_freq_meas.git
 ```
-- then make this clone of the template repo point to your new project 
-```
- git remote set-url origin https://github.com/brycehenson/my_new_project.git
- ```
- - then pull the new project into this local git
- ```
- git pull --allow-unrelated-histories
-```
-and then push.
 
 If you need to update sumbodules at any point
 ```
